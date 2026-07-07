@@ -1,0 +1,251 @@
+state_name,year,arts_employment,STABBR
+Alabama,2018,970.0,AL
+Alabama,2019,1150.0,AL
+Alabama,2020,970.0,AL
+Alabama,2021,780.0,AL
+Alabama,2022,1130.0,AL
+Alaska,2018,190.0,AK
+Alaska,2019,180.0,AK
+Alaska,2020,130.0,AK
+Alaska,2021,80.0,AK
+Alaska,2022,140.0,AK
+Arizona,2018,2020.0,AZ
+Arizona,2019,2230.0,AZ
+Arizona,2020,2130.0,AZ
+Arizona,2021,1810.0,AZ
+Arizona,2022,2410.0,AZ
+Arkansas,2018,510.0,AR
+Arkansas,2019,470.0,AR
+Arkansas,2020,420.0,AR
+Arkansas,2021,420.0,AR
+Arkansas,2022,580.0,AR
+California,2018,48020.0,CA
+California,2019,61560.0,CA
+California,2020,55360.0,CA
+California,2021,51380.0,CA
+California,2022,78540.0,CA
+Colorado,2018,3210.0,CO
+Colorado,2019,3190.0,CO
+Colorado,2020,2880.0,CO
+Colorado,2021,2340.0,CO
+Colorado,2022,3380.0,CO
+Connecticut,2018,3600.0,CT
+Connecticut,2019,3060.0,CT
+Connecticut,2020,3210.0,CT
+Connecticut,2021,2920.0,CT
+Connecticut,2022,3020.0,CT
+Delaware,2018,60.0,DE
+Delaware,2019,50.0,DE
+Delaware,2020,40.0,DE
+Delaware,2021,70.0,DE
+Delaware,2022,110.0,DE
+Florida,2018,10260.0,FL
+Florida,2019,8910.0,FL
+Florida,2020,8530.0,FL
+Florida,2021,8920.0,FL
+Florida,2022,18210.0,FL
+Georgia,2018,9360.0,GA
+Georgia,2019,9180.0,GA
+Georgia,2020,8210.0,GA
+Georgia,2021,4840.0,GA
+Georgia,2022,11400.0,GA
+Hawaii,2018,1230.0,HI
+Hawaii,2019,1200.0,HI
+Hawaii,2020,1440.0,HI
+Hawaii,2021,1110.0,HI
+Hawaii,2022,1590.0,HI
+Idaho,2018,380.0,ID
+Idaho,2019,460.0,ID
+Idaho,2020,530.0,ID
+Idaho,2021,350.0,ID
+Idaho,2022,420.0,ID
+Illinois,2018,8480.0,IL
+Illinois,2019,9930.0,IL
+Illinois,2020,8500.0,IL
+Illinois,2021,7950.0,IL
+Illinois,2022,6260.0,IL
+Indiana,2018,2130.0,IN
+Indiana,2019,2530.0,IN
+Indiana,2020,2760.0,IN
+Indiana,2021,2250.0,IN
+Indiana,2022,2660.0,IN
+Iowa,2018,1020.0,IA
+Iowa,2019,940.0,IA
+Iowa,2020,930.0,IA
+Iowa,2021,880.0,IA
+Iowa,2022,1070.0,IA
+Kansas,2018,980.0,KS
+Kansas,2019,840.0,KS
+Kansas,2020,700.0,KS
+Kansas,2021,490.0,KS
+Kansas,2022,700.0,KS
+Kentucky,2018,940.0,KY
+Kentucky,2019,920.0,KY
+Kentucky,2020,910.0,KY
+Kentucky,2021,1040.0,KY
+Kentucky,2022,1080.0,KY
+Louisiana,2018,4070.0,LA
+Louisiana,2019,4380.0,LA
+Louisiana,2020,3240.0,LA
+Louisiana,2021,2030.0,LA
+Louisiana,2022,2980.0,LA
+Maine,2018,230.0,ME
+Maine,2019,210.0,ME
+Maine,2020,330.0,ME
+Maine,2021,370.0,ME
+Maine,2022,370.0,ME
+Maryland,2018,3170.0,MD
+Maryland,2019,3310.0,MD
+Maryland,2020,3500.0,MD
+Maryland,2021,3030.0,MD
+Maryland,2022,3250.0,MD
+Massachusetts,2018,5600.0,MA
+Massachusetts,2019,5680.0,MA
+Massachusetts,2020,4450.0,MA
+Massachusetts,2021,2880.0,MA
+Massachusetts,2022,4870.0,MA
+Michigan,2018,4370.0,MI
+Michigan,2019,3930.0,MI
+Michigan,2020,3350.0,MI
+Michigan,2021,3360.0,MI
+Michigan,2022,4000.0,MI
+Minnesota,2018,3230.0,MN
+Minnesota,2019,2820.0,MN
+Minnesota,2020,2240.0,MN
+Minnesota,2021,1910.0,MN
+Minnesota,2022,2340.0,MN
+Mississippi,2018,400.0,MS
+Mississippi,2019,320.0,MS
+Mississippi,2020,440.0,MS
+Mississippi,2021,610.0,MS
+Mississippi,2022,880.0,MS
+Missouri,2018,3720.0,MO
+Missouri,2019,3210.0,MO
+Missouri,2020,2470.0,MO
+Missouri,2021,2320.0,MO
+Missouri,2022,3010.0,MO
+Montana,2018,640.0,MT
+Montana,2019,740.0,MT
+Montana,2020,790.0,MT
+Montana,2021,580.0,MT
+Montana,2022,710.0,MT
+Nebraska,2018,750.0,NE
+Nebraska,2019,810.0,NE
+Nebraska,2020,620.0,NE
+Nebraska,2021,550.0,NE
+Nebraska,2022,770.0,NE
+Nevada,2018,2250.0,NV
+Nevada,2019,1790.0,NV
+Nevada,2020,1260.0,NV
+Nevada,2021,1310.0,NV
+Nevada,2022,2050.0,NV
+New Hampshire,2018,270.0,NH
+New Hampshire,2019,230.0,NH
+New Hampshire,2020,250.0,NH
+New Hampshire,2021,230.0,NH
+New Hampshire,2022,390.0,NH
+New Jersey,2018,3450.0,NJ
+New Jersey,2019,3340.0,NJ
+New Jersey,2020,3200.0,NJ
+New Jersey,2021,3020.0,NJ
+New Jersey,2022,4230.0,NJ
+New Mexico,2018,610.0,NM
+New Mexico,2019,1190.0,NM
+New Mexico,2020,860.0,NM
+New Mexico,2021,1790.0,NM
+New Mexico,2022,1290.0,NM
+New York,2018,45410.0,NY
+New York,2019,46820.0,NY
+New York,2020,40480.0,NY
+New York,2021,37160.0,NY
+New York,2022,42400.0,NY
+North Carolina,2018,3400.0,NC
+North Carolina,2019,3600.0,NC
+North Carolina,2020,3350.0,NC
+North Carolina,2021,3030.0,NC
+North Carolina,2022,3400.0,NC
+North Dakota,2018,160.0,ND
+North Dakota,2019,110.0,ND
+North Dakota,2020,120.0,ND
+North Dakota,2021,130.0,ND
+North Dakota,2022,210.0,ND
+Ohio,2018,4690.0,OH
+Ohio,2019,4380.0,OH
+Ohio,2020,4320.0,OH
+Ohio,2021,4340.0,OH
+Ohio,2022,4450.0,OH
+Oklahoma,2018,770.0,OK
+Oklahoma,2019,990.0,OK
+Oklahoma,2020,1140.0,OK
+Oklahoma,2021,1010.0,OK
+Oklahoma,2022,1100.0,OK
+Oregon,2018,3930.0,OR
+Oregon,2019,3900.0,OR
+Oregon,2020,3120.0,OR
+Oregon,2021,2660.0,OR
+Oregon,2022,2880.0,OR
+Pennsylvania,2018,6540.0,PA
+Pennsylvania,2019,6530.0,PA
+Pennsylvania,2020,6000.0,PA
+Pennsylvania,2021,7920.0,PA
+Pennsylvania,2022,9010.0,PA
+Rhode Island,2018,580.0,RI
+Rhode Island,2019,660.0,RI
+Rhode Island,2020,470.0,RI
+Rhode Island,2021,560.0,RI
+Rhode Island,2022,870.0,RI
+South Carolina,2018,1750.0,SC
+South Carolina,2019,1930.0,SC
+South Carolina,2020,1750.0,SC
+South Carolina,2021,1450.0,SC
+South Carolina,2022,1880.0,SC
+South Dakota,2018,390.0,SD
+South Dakota,2019,400.0,SD
+South Dakota,2020,330.0,SD
+South Dakota,2021,470.0,SD
+South Dakota,2022,490.0,SD
+Tennessee,2018,5140.0,TN
+Tennessee,2019,4390.0,TN
+Tennessee,2020,4010.0,TN
+Tennessee,2021,3540.0,TN
+Tennessee,2022,4590.0,TN
+Texas,2018,10740.0,TX
+Texas,2019,10390.0,TX
+Texas,2020,7350.0,TX
+Texas,2021,9470.0,TX
+Texas,2022,10480.0,TX
+Utah,2018,1600.0,UT
+Utah,2019,1550.0,UT
+Utah,2020,1490.0,UT
+Utah,2021,1950.0,UT
+Utah,2022,2480.0,UT
+Vermont,2018,330.0,VT
+Vermont,2019,340.0,VT
+Vermont,2020,250.0,VT
+Vermont,2021,130.0,VT
+Vermont,2022,200.0,VT
+Virginia,2018,4350.0,VA
+Virginia,2019,3960.0,VA
+Virginia,2020,3370.0,VA
+Virginia,2021,3320.0,VA
+Virginia,2022,4130.0,VA
+Washington,2018,4120.0,WA
+Washington,2019,3990.0,WA
+Washington,2020,4390.0,WA
+Washington,2021,2950.0,WA
+Washington,2022,3670.0,WA
+West Virginia,2018,320.0,WV
+West Virginia,2019,280.0,WV
+West Virginia,2020,330.0,WV
+West Virginia,2021,240.0,WV
+West Virginia,2022,390.0,WV
+Wisconsin,2018,2150.0,WI
+Wisconsin,2019,2460.0,WI
+Wisconsin,2020,2050.0,WI
+Wisconsin,2021,1880.0,WI
+Wisconsin,2022,2380.0,WI
+Wyoming,2018,210.0,WY
+Wyoming,2019,180.0,WY
+Wyoming,2020,130.0,WY
+Wyoming,2021,140.0,WY
+Wyoming,2022,120.0,WY

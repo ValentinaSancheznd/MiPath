@@ -1,0 +1,51 @@
+STABBR,avg_arts_jobs,avg_earnings,avg_debt,avg_cost,avg_compensation,jobs_per_grad,cluster,cluster_label,state_full_name,top_inst_name,control_type,total_arts_headcount,top_inst_net_cost
+AK,102.86,44569.0,24872.0,11624.5,5574.3,1.74,1,Accessible Small Markets,Alaska,University of Alaska Anchorage,Public,43.0,15301.0
+AL,333.33,41379.5,25837.5,18796.0,12806.61,0.31,0,Competitive Mid-Size Markets,Alabama,Auburn University,Public,191.0,24323.0
+AR,300.0,41853.0,25376.5,17248.0,8855.0,0.44,0,Competitive Mid-Size Markets,Arkansas,University of Arkansas,Public,169.0,18209.0
+AZ,557.89,43469.0,22625.0,16674.0,51310.55000000001,0.35,0,Competitive Mid-Size Markets,Arizona,Arizona State University Campus Immersion,Public,651.0,14967.0
+CA,10167.59,44858.0,20000.0,22212.0,2735306.1,0.76,2,Major Arts Markets,California,California State University-Long Beach,Public,940.0,10440.0
+CO,600.0,42053.5,26163.5,17760.0,84988.0,0.44,0,Competitive Mid-Size Markets,Colorado,University of Colorado Denver/Anschutz Medical Campus,Public,221.0,11900.0
+CT,718.64,50952.0,25414.0,30177.0,48533.21,0.73,0,Competitive Mid-Size Markets,Connecticut,University of Hartford,Private nonprofit,160.0,30282.0
+DE,66.0,49145.0,25908.0,14777.0,5425.4,0.51,0,Competitive Mid-Size Markets,Delaware,University of Delaware,Public,105.0,17799.0
+FL,1958.21,42090.0,22375.0,25180.0,276436.5,0.35,0,Competitive Mid-Size Markets,Florida,Full Sail University,Private for-profit,1770.0,38875.0
+GA,1869.13,38107.0,26354.0,18924.0,101650.6,0.56,0,Competitive Mid-Size Markets,Georgia,Savannah College of Art and Design,Private nonprofit,1305.0,49430.0
+HI,386.47,34383.0,22411.0,16774.0,26749.780000000002,2.5900000000000003,1,Accessible Small Markets,Hawaii,University of Hawaii at Manoa,Public,94.0,15664.0
+IA,302.5,43192.0,26500.0,22601.0,15492.109999999999,0.31,0,Competitive Mid-Size Markets,Iowa,University of Iowa,Public,264.0,22531.0
+ID,214.0,38581.0,21287.0,14831.0,8273.8,0.44,1,Accessible Small Markets,Idaho,Brigham Young University-Idaho,Private nonprofit,217.0,8221.0
+IL,1522.9599999999998,44095.0,26000.0,18981.5,137305.65,0.39,0,Competitive Mid-Size Markets,Illinois,Columbia College Chicago,Private nonprofit,746.0,26598.0
+IN,513.75,42838.0,22750.0,19310.0,32793.75,0.31,0,Competitive Mid-Size Markets,Indiana,Indiana University-Bloomington,Public,328.0,16264.0
+KS,265.0,39280.0,25564.5,22671.0,10756.83,0.39,0,Competitive Mid-Size Markets,Kansas,University of Kansas,Public,229.0,18059.0
+KY,305.62,39457.0,25000.0,17988.0,15316.059999999998,0.33,0,Competitive Mid-Size Markets,Kentucky,University of Kentucky,Public,196.0,18851.0
+LA,695.83,39430.0,23067.5,13606.0,29105.2,0.71,1,Accessible Small Markets,Louisiana,Louisiana State University and Agricultural & Mechanical College,Public,182.0,19151.0
+MA,978.33,44171.0,27000.0,27290.0,116243.05,0.24,0,Competitive Mid-Size Markets,Massachusetts,Berklee College of Music,Private nonprofit,909.0,49465.0
+MD,739.09,42758.0,24432.0,18441.0,49736.8,0.59,0,Competitive Mid-Size Markets,Maryland,Maryland Institute College of Art,Private nonprofit,252.0,42729.0
+ME,167.78,40521.5,27000.0,17510.0,16223.419999999998,0.66,0,Competitive Mid-Size Markets,Maine,Maine College of Art & Design,Private nonprofit,62.0,38338.0
+MI,864.09,43777.0,27000.0,16317.0,65204.299999999996,0.37,0,Competitive Mid-Size Markets,Michigan,University of Michigan-Ann Arbor,Public,417.0,13138.0
+MN,522.5,44936.5,25000.0,20148.0,61346.8,0.4,0,Competitive Mid-Size Markets,Minnesota,University of Minnesota-Twin Cities,Public,330.0,16778.0
+MO,589.2,40449.0,25576.0,19638.0,54262.25,0.38,0,Competitive Mid-Size Markets,Missouri,Missouri State University-Springfield,Public,188.0,17613.0
+MS,147.22,37407.5,26112.5,15676.0,4495.72,0.34,0,Competitive Mid-Size Markets,Mississippi,University of Southern Mississippi,Public,120.0,21708.0
+MT,230.67,39920.0,26187.0,16784.0,8384.84,0.82,0,Competitive Mid-Size Markets,Montana,Montana State University,Public,145.0,22499.0
+NC,645.38,41894.5,26000.0,18853.0,59568.09999999999,0.26,0,Competitive Mid-Size Markets,North Carolina,University of North Carolina at Greensboro,Public,257.0,10965.0
+ND,121.67,46363.5,31219.0,15543.0,5585.93,0.82,0,Competitive Mid-Size Markets,North Dakota,North Dakota State University-Main Campus,Public,61.0,15543.0
+NE,269.23,44825.0,24311.5,17747.0,17586.61,0.52,0,Competitive Mid-Size Markets,Nebraska,University of Nebraska-Lincoln,Public,152.0,17747.0
+NH,171.25,46272.0,27000.0,26972.0,13725.44,0.18,0,Competitive Mid-Size Markets,New Hampshire,Southern New Hampshire University,Private nonprofit,639.0,36708.0
+NJ,862.0,45261.5,26000.0,20503.0,97059.15,0.4699999999999999,0,Competitive Mid-Size Markets,New Jersey,Montclair State University,Public,329.0,15566.0
+NM,358.75,35527.0,17009.0,10729.5,14918.75,1.07,1,Accessible Small Markets,New Mexico,University of New Mexico-Main Campus,Public,193.0,15489.0
+NV,481.11,41074.0,24076.0,12213.5,110401.05,1.2900000000000003,1,Accessible Small Markets,Nevada,University of Nevada-Las Vegas,Public,275.0,10359.0
+NY,7861.85,44045.0,25985.0,22992.0,1163300.6,0.72,2,Major Arts Markets,New York,New York University,Private nonprofit,1173.0,37050.0
+OH,887.2,42796.0,26791.0,20948.0,115562.0,0.26,0,Competitive Mid-Size Markets,Ohio,University of Cincinnati-Main Campus,Public,434.0,25648.0
+OK,250.5,41540.0,23187.5,17447.0,23320.39,0.28,0,Competitive Mid-Size Markets,Oklahoma,University of Oklahoma-Norman Campus,Public,182.0,15300.0
+OR,610.74,42199.0,24625.0,25121.0,41150.95,0.5,0,Competitive Mid-Size Markets,Oregon,University of Oregon,Public,311.0,22182.0
+PA,1241.38,42548.5,27000.0,25890.0,108550.45,0.33,0,Competitive Mid-Size Markets,Pennsylvania,Temple University,Public,453.0,28198.0
+RI,184.71,47582.5,24011.5,36725.0,8199.71,0.31,0,Competitive Mid-Size Markets,Rhode Island,Rhode Island School of Design,Private nonprofit,246.0,50507.0
+SC,336.92,40575.0,26943.0,18960.0,33488.35,0.29,0,Competitive Mid-Size Markets,South Carolina,University of South Carolina-Columbia,Public,222.0,22811.0
+SD,122.35,43945.0,27000.0,19841.0,9727.92,0.8,0,Competitive Mid-Size Markets,South Dakota,South Dakota State University,Public,37.0,19841.0
+TN,866.8,41449.0,23453.0,19360.0,207424.89,0.39,0,Competitive Mid-Size Markets,Tennessee,Belmont University,Private nonprofit,630.0,33147.0
+TX,1729.64,48472.0,24955.5,19487.0,225313.1,0.33,0,Competitive Mid-Size Markets,Texas,University of North Texas,Public,628.0,15649.0
+UT,394.3500000000001,48180.0,16656.0,15564.0,35656.5,0.3,1,Accessible Small Markets,Utah,University of Utah,Public,354.0,16200.0
+VA,708.52,46040.0,25937.0,21565.0,77879.45,0.28,0,Competitive Mid-Size Markets,Virginia,Virginia Commonwealth University,Public,592.0,23433.0
+VT,138.89,38941.5,26942.5,30947.0,7295.88,0.38,0,Competitive Mid-Size Markets,Vermont,Champlain College,Private nonprofit,128.0,35860.0
+WA,796.67,44054.5,24125.0,21193.0,63725.11,0.64,0,Competitive Mid-Size Markets,Washington,University of Washington-Seattle Campus,Public,319.0,14091.0
+WI,496.36,44088.0,26906.0,18817.0,37075.76,0.29,0,Competitive Mid-Size Markets,Wisconsin,University of Wisconsin-Milwaukee,Public,258.0,15014.0
+WV,195.0,42561.0,25000.0,15634.0,3405.06,0.55,0,Competitive Mid-Size Markets,West Virginia,West Virginia University,Public,190.0,15634.0
+WY,78.0,40699.5,18690.0,13599.0,4778.35,1.3,1,Accessible Small Markets,Wyoming,University of Wyoming,Public,60.0,13599.0
