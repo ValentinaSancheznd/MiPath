@@ -1,0 +1,149 @@
+STABBR,rank,inst_name,control_type,total_arts_headcount,inst_net_cost
+AK,1,University of Alaska Anchorage,Public,43.0,15301.0
+AK,2,University of Alaska Fairbanks,Public,16.0,10892.0
+AK,3,University of Alaska Southeast,Public,0.0,12357.0
+AL,1,Auburn University,Public,191.0,24323.0
+AL,2,The University of Alabama,Public,176.0,22420.0
+AL,3,University of North Alabama,Public,93.0,12170.0
+AR,1,University of Arkansas,Public,169.0,18209.0
+AR,2,University of Central Arkansas,Public,124.0,16511.0
+AR,3,University of Arkansas at Little Rock,Public,47.0,17248.0
+AZ,1,Arizona State University Campus Immersion,Public,651.0,14967.0
+AZ,2,University of Arizona,Public,262.0,16674.0
+AZ,3,Grand Canyon University,Private nonprofit,246.0,22472.0
+CA,1,California State University-Long Beach,Public,940.0,10440.0
+CA,2,University of Southern California,Private nonprofit,642.0,32740.0
+CA,3,California State University-Fullerton,Public,612.0,6555.0
+CO,1,University of Colorado Denver/Anschutz Medical Campus,Public,221.0,11900.0
+CO,2,University of Colorado Boulder,Public,207.0,25346.0
+CO,3,University of Northern Colorado,Public,163.0,17760.0
+CT,1,University of Hartford,Private nonprofit,160.0,30282.0
+CT,2,Wesleyan University,Private nonprofit,144.0,30177.0
+CT,3,University of Connecticut,Public,107.0,25097.0
+DE,1,University of Delaware,Public,105.0,17799.0
+DE,2,Delaware State University,Public,18.0,13910.0
+DE,3,Wilmington University,Private nonprofit,6.0,15644.0
+FL,1,Full Sail University,Private for-profit,1770.0,38875.0
+FL,2,University of Central Florida,Public,1051.0,10411.0
+FL,3,Florida State University,Public,389.0,11297.0
+GA,1,Savannah College of Art and Design,Private nonprofit,1305.0,49430.0
+GA,2,Georgia State University,Public,399.0,15931.0
+GA,3,University of Georgia,Public,215.0,13936.0
+HI,1,University of Hawaii at Manoa,Public,94.0,15664.0
+HI,2,Brigham Young University-Hawaii,Private nonprofit,40.0,16774.0
+HI,3,Chaminade University of Honolulu,Private nonprofit,9.0,28856.0
+IA,1,University of Iowa,Public,264.0,22531.0
+IA,2,Iowa State University,Public,244.0,18589.0
+IA,3,University of Northern Iowa,Public,76.0,15901.0
+ID,1,Brigham Young University-Idaho,Private nonprofit,217.0,8221.0
+ID,2,Boise State University,Public,145.0,21610.0
+ID,3,University of Idaho,Public,52.0,14831.0
+IL,1,Columbia College Chicago,Private nonprofit,746.0,26598.0
+IL,2,School of the Art Institute of Chicago,Private nonprofit,597.0,49790.0
+IL,3,DePaul University,Private nonprofit,395.0,30902.0
+IN,1,Indiana University-Bloomington,Public,328.0,16264.0
+IN,2,Ball State University,Public,219.0,14940.0
+IN,3,Indiana University-Indianapolis,Public,132.0,11668.0
+KS,1,University of Kansas,Public,229.0,18059.0
+KS,2,Wichita State University,Public,125.0,13194.0
+KS,3,Kansas State University,Public,117.0,19406.0
+KY,1,University of Kentucky,Public,196.0,18851.0
+KY,2,Western Kentucky University,Public,149.0,10990.0
+KY,3,Northern Kentucky University,Public,125.0,8191.0
+LA,1,Louisiana State University and Agricultural & Mechanical College,Public,182.0,19151.0
+LA,2,Loyola University New Orleans,Private nonprofit,134.0,23696.0
+LA,3,University of Louisiana at Lafayette,Public,122.0,13530.0
+MA,1,Berklee College of Music,Private nonprofit,909.0,49465.0
+MA,2,Emerson College,Private nonprofit,484.0,49180.0
+MA,3,Massachusetts College of Art and Design,Public,284.0,24100.0
+MD,1,Maryland Institute College of Art,Private nonprofit,252.0,42729.0
+MD,2,Towson University,Public,231.0,17413.0
+MD,3,University of Maryland-College Park,Public,187.0,15678.0
+ME,1,Maine College of Art & Design,Private nonprofit,62.0,38338.0
+ME,2,Bates College,Private nonprofit,40.0,29351.0
+ME,3,University of Southern Maine,Public,38.0,13596.0
+MI,1,University of Michigan-Ann Arbor,Public,417.0,13138.0
+MI,2,Western Michigan University,Public,245.0,15273.0
+MI,3,Michigan State University,Public,219.0,19680.0
+MN,1,University of Minnesota-Twin Cities,Public,330.0,16778.0
+MN,2,St Olaf College,Private nonprofit,106.0,23874.0
+MN,3,University of Minnesota-Duluth,Public,93.0,18743.0
+MO,1,Missouri State University-Springfield,Public,188.0,17613.0
+MO,2,Webster University,Private nonprofit,154.0,27047.0
+MO,3,University of Missouri-Columbia,Public,146.0,20268.0
+MS,1,University of Southern Mississippi,Public,120.0,21708.0
+MS,2,University of Mississippi,Public,73.0,13314.0
+MS,3,Mississippi State University,Public,51.0,17595.0
+MT,1,Montana State University,Public,145.0,22499.0
+MT,2,The University of Montana,Public,110.0,16784.0
+MT,3,Montana State University Billings,Public,10.0,16524.0
+NC,1,University of North Carolina at Greensboro,Public,257.0,10965.0
+NC,2,Appalachian State University,Public,248.0,16836.0
+NC,3,University of North Carolina School of the Arts,Public,221.0,14906.0
+ND,1,North Dakota State University-Main Campus,Public,61.0,15543.0
+ND,2,University of North Dakota,Public,39.0,18551.0
+ND,3,Valley City State University,Public,24.0,11890.0
+NE,1,University of Nebraska-Lincoln,Public,152.0,17747.0
+NE,2,University of Nebraska at Omaha,Public,107.0,13441.0
+NE,3,Bellevue University,Private nonprofit,49.0,17550.0
+NH,1,Southern New Hampshire University,Private nonprofit,639.0,36708.0
+NH,2,Keene State College,Public,84.0,17887.0
+NH,3,Dartmouth College,Private nonprofit,63.0,29519.0
+NJ,1,Montclair State University,Public,329.0,15566.0
+NJ,2,Rutgers University-New Brunswick,Public,225.0,24406.0
+NJ,3,Rowan University,Public,159.0,22408.0
+NM,1,University of New Mexico-Main Campus,Public,193.0,15489.0
+NM,2,New Mexico State University-Main Campus,Public,64.0,8889.0
+NM,3,Eastern New Mexico University-Main Campus,Public,38.0,4904.0
+NV,1,University of Nevada-Las Vegas,Public,275.0,10359.0
+NV,2,University of Nevada-Reno,Public,81.0,15927.0
+NV,3,Nevada State University,Public,16.0,14068.0
+NY,1,New York University,Private nonprofit,1173.0,37050.0
+NY,2,The New School,Private nonprofit,997.0,58741.0
+NY,3,Fashion Institute of Technology,Public,659.0,19095.0
+OH,1,University of Cincinnati-Main Campus,Public,434.0,25648.0
+OH,2,Kent State University at Kent,Public,385.0,20787.0
+OH,3,Ohio State University-Main Campus,Public,251.0,17339.0
+OK,1,University of Oklahoma-Norman Campus,Public,182.0,15300.0
+OK,2,Oklahoma City University,Private nonprofit,162.0,22857.0
+OK,3,Oklahoma State University-Main Campus,Public,138.0,17447.0
+OR,1,University of Oregon,Public,311.0,22182.0
+OR,2,Portland State University,Public,298.0,9552.0
+OR,3,Oregon State University,Public,150.0,19604.0
+PA,1,Temple University,Public,453.0,28198.0
+PA,2,Drexel University,Private nonprofit,330.0,38509.0
+PA,3,Pennsylvania State University-Main Campus,Public,221.0,32875.0
+RI,1,Rhode Island School of Design,Private nonprofit,246.0,50507.0
+RI,2,University of Rhode Island,Public,112.0,21440.0
+RI,3,Brown University,Private nonprofit,83.0,25184.0
+SC,1,University of South Carolina-Columbia,Public,222.0,22811.0
+SC,2,College of Charleston,Public,148.0,18960.0
+SC,3,Clemson University,Public,120.0,22253.0
+SD,1,South Dakota State University,Public,37.0,19841.0
+SD,2,University of South Dakota,Public,36.0,19858.0
+SD,3,Black Hills State University,Public,23.0,15911.0
+TN,1,Belmont University,Private nonprofit,630.0,33147.0
+TN,2,Middle Tennessee State University,Public,411.0,13359.0
+TN,3,University of Memphis,Public,141.0,12397.0
+TX,1,University of North Texas,Public,628.0,15649.0
+TX,2,Texas State University,Public,492.0,16805.0
+TX,3,The University of Texas at Austin,Public,419.0,19857.0
+UT,1,University of Utah,Public,354.0,16200.0
+UT,2,Brigham Young University,Private nonprofit,313.0,15564.0
+UT,3,Utah Valley University,Public,261.0,6376.0
+VA,1,Virginia Commonwealth University,Public,592.0,23433.0
+VA,2,Liberty University,Private nonprofit,358.0,29357.0
+VA,3,James Madison University,Public,262.0,23322.0
+VT,1,Champlain College,Private nonprofit,128.0,35860.0
+VT,2,Bennington College,Private nonprofit,100.0,30947.0
+VT,3,University of Vermont,Public,66.0,19343.0
+WA,1,University of Washington-Seattle Campus,Public,319.0,14091.0
+WA,2,Western Washington University,Public,206.0,21193.0
+WA,3,Central Washington University,Public,151.0,18476.0
+WI,1,University of Wisconsin-Milwaukee,Public,258.0,15014.0
+WI,2,University of Wisconsin-Stout,Public,191.0,17490.0
+WI,3,University of Wisconsin-Madison,Public,176.0,17354.0
+WV,1,West Virginia University,Public,190.0,15634.0
+WV,2,Marshall University,Public,46.0,7502.0
+WV,3,Shepherd University,Public,35.0,11363.0
+WY,1,University of Wyoming,Public,60.0,13599.0
