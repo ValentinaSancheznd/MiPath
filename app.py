@@ -285,21 +285,29 @@ if st.session_state.active_tab == "Explore Fields":
 
     st.divider()
     st.subheader("U.S. Arts Employment, 2018-2022")
-    trend_year_options = sorted(trend_national["year"].unique().tolist())
+    trend_year_options = ["All years"] + sorted(trend_national["year"].unique().tolist())
     highlight_year = st.select_slider("Highlight a year (zooms in around it)",
-                                        options=trend_year_options, value=trend_year_options[-1])
+                                        options=trend_year_options, value="All years")
 
-    text_sizes = [16 if y == highlight_year else 11 for y in trend_national["year"]]
-    text_colors = [TERRACOTTA if y == highlight_year else MAROON for y in trend_national["year"]]
+    if highlight_year == "All years":
+        marker_sizes = [8] * len(trend_national)
+        marker_colors = [GREEN] * len(trend_national)
+        text_sizes = [11] * len(trend_national)
+        text_colors = [MAROON] * len(trend_national)
+        zoom_min, zoom_max = 2017.6, 2022.4
+    else:
+        marker_sizes = [16 if y == highlight_year else 8 for y in trend_national["year"]]
+        marker_colors = [TERRACOTTA if y == highlight_year else GREEN for y in trend_national["year"]]
+        text_sizes = [16 if y == highlight_year else 11 for y in trend_national["year"]]
+        text_colors = [TERRACOTTA if y == highlight_year else MAROON for y in trend_national["year"]]
+        zoom_min = max(2018, highlight_year - 1) - 0.4
+        zoom_max = min(2022, highlight_year + 1) + 0.4
 
     fig_trend = go.Figure(go.Scatter(
         x=trend_national["year"], y=trend_national["arts_employment"],
         mode="lines+markers+text",
         line=dict(color=GREEN, width=3),
-        marker=dict(
-            size=[16 if y == highlight_year else 8 for y in trend_national["year"]],
-            color=[TERRACOTTA if y == highlight_year else GREEN for y in trend_national["year"]]
-        ),
+        marker=dict(size=marker_sizes, color=marker_colors),
         text=[f"{v:,.0f}" for v in trend_national["arts_employment"]],
         textposition="top center",
         textfont=dict(size=text_sizes, color=text_colors),
@@ -307,19 +315,20 @@ if st.session_state.active_tab == "Explore Fields":
     ))
     fig_trend.add_vrect(x0=2019.5, x1=2021.5, fillcolor=TERRACOTTA, opacity=0.12, line_width=0)
     fig_trend = style_fig(fig_trend, height=340, showlegend=False)
-
-    zoom_min = max(2018, highlight_year - 1) - 0.4
-    zoom_max = min(2022, highlight_year + 1) + 0.4
     fig_trend.update_layout(
         xaxis=dict(tickmode="array", tickvals=[2018, 2019, 2020, 2021, 2022], range=[zoom_min, zoom_max]),
         yaxis_title="Total arts jobs", xaxis_title=""
     )
     st.plotly_chart(fig_trend, use_container_width=True)
 
-    highlight_val = trend_national[trend_national["year"] == highlight_year]["arts_employment"].iloc[0]
-    st.caption(f"{highlight_year}: {highlight_val:,.0f} total arts jobs nationally. "
-                "The pandemic dip (shaded) had recovered by 2022. Figures elsewhere in this tool "
-                "are averaged across 2018-2022, so this dip is smoothed into those averages.")
+    if highlight_year == "All years":
+        st.caption("The pandemic dip (shaded) had recovered by 2022. Figures elsewhere in this tool "
+                    "are averaged across 2018-2022, so this dip is smoothed into those averages.")
+    else:
+        highlight_val = trend_national[trend_national["year"] == highlight_year]["arts_employment"].iloc[0]
+        st.caption(f"{highlight_year}: {highlight_val:,.0f} total arts jobs nationally. "
+                    "The pandemic dip (shaded) had recovered by 2022. Figures elsewhere in this tool "
+                    "are averaged across 2018-2022, so this dip is smoothed into those averages.")
 
 # ═══════════════════════════════════════════════════════════════════════════
 # TAB 2 — WHERE TO GO
@@ -460,14 +469,23 @@ elif st.session_state.active_tab == "Where to Go":
                              "BLS employment data is organized by occupation, not field of study.")
         rank_col, rank_label, rank_source = "arts_employment", "Arts jobs", year_data
 
-    # Highlight the preferred state with a bold border, as part of the same
-    # trace (one border width/color per state) — more reliable than a
-    # second overlay trace, and keeps click detection simple (one trace).
-    line_widths = [4 if s == home_state_abbr else 0.5 for s in base_df["STABBR"]]
-    line_colors = [NEAR_BLACK if s == home_state_abbr else WHITE for s in base_df["STABBR"]]
-    fig_map.update_traces(marker_line_width=line_widths, marker_line_color=line_colors)
+    # Highlight the preferred state with a dedicated overlay trace instead of
+    # a per-point border array — because color_discrete_map (categorical
+    # coloring) makes Plotly split the map into multiple traces internally,
+    # one per category. A single border array indexed against base_df's row
+    # order doesn't line up correctly across those separate traces, which is
+    # why the wrong state was getting highlighted. An overlay trace with just
+    # the target state sidesteps that entirely, regardless of how many
+    # underlying traces the categorical coloring creates.
+    if home_state_abbr:
+        fig_map.add_trace(go.Choropleth(
+            locations=[home_state_abbr], locationmode="USA-states", z=[1],
+            colorscale=[[0, "rgba(0,0,0,0)"], [1, "rgba(0,0,0,0)"]],
+            showscale=False, marker_line_color=NEAR_BLACK, marker_line_width=4,
+            hoverinfo="skip", showlegend=False
+        ))
 
-    fig_map.update_layout(paper_bgcolor=CREAM, height=440, geo_bgcolor=CREAM, legend_title_text="")
+    fig_map.update_layout(paper_bgcolor=CREAM, height=440, geo_bgcolor=CREAM, showlegend=False)
     fig_map.update_geos(bgcolor=CREAM)
 
     with map_col:
@@ -479,12 +497,10 @@ elif st.session_state.active_tab == "Where to Go":
 
         clicked_points = map_event.get("selection", {}).get("points", []) if map_event else []
         if clicked_points:
-            pt = clicked_points[0]
-            clicked_loc = pt.get("location")
-            if not clicked_loc:
-                idx = pt.get("point_index", pt.get("point_number"))
-                if idx is not None and idx < len(base_df):
-                    clicked_loc = base_df.iloc[idx]["STABBR"]
+            # Trust Plotly's own 'location' field — it's per-point and tied to
+            # the geo id directly, so it's correct no matter which underlying
+            # trace (category) the click landed on. No manual index math.
+            clicked_loc = clicked_points[0].get("location")
             if clicked_loc and clicked_loc in state_names:
                 clicked_full_name = state_names[clicked_loc]
                 if st.session_state.get("global_state_select") != clicked_full_name:
